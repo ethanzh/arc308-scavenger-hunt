@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Facts</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">CCTV Tower</div>
+        <div class="list-group list-group-flush">
+            <a href="../" class="list-group-item list-group-item-action bg-light">Home</a>
+            <a href="../facts" class="list-group-item list-group-item-action bg-light">Facts</a>
+            <a href="../plans" class="list-group-item list-group-item-action bg-light">Plans</a>
+            <a href="." class="list-group-item list-group-item-action bg-light">Exterior</a>
+        </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <style>
+            img {
+                max-height: 600px;
+            }
+        </style>
+
+        <style>
+            .parent {
+                display: flex;
+                width: 600px
+            }
+            .label {
+                font-size: 26px;
+                flex: 1;
+            }
+            .value {
+                font-size: 26px;
+                font-weight: bold;
+                flex: 1;
+            }
+
+        </style>
+
+        <div class="container-fluid">
+            <h1 class="mt-4">Exterior</h1>
+
+            <h3>Materials</h3>
+
+            <div class="parent">
+                <p class="label">Core</p>
+                <p class="value">Steel</p>
+            </div>
+            <div class="parent">
+                <p class="label">Columns</p>
+                <p class="value">Concrete Encased Steel</p>
+            </div>
+            <div class="parent">
+                <p class="label">Floor Spanning</p>
+                <p class="value">Steel</p>
+            </div>
+
+            <h4>Arial View of CMG Headquarters</h4>
+            <figure>
+                <img src="arial.jpg" alt="arial">
+                <figcaption>The CMG tower's unique style makes it stand out amongst the Beijing skyline</figcaption>
+            </figure>
+
+            <h4>Old and New China</h4>
+            <figure>
+                <img src="street.jpg" alt="street">
+                <figcaption>The CMG tower's style is seemingly juxtaposed in its surrounding area, making it pop out</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
+
+</body>
+
+</html>
